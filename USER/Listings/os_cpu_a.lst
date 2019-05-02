@@ -335,10 +335,10 @@ ARM Macro Assembler    Page 6
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=..\os_cpu_a.d -o..\os_cpu_a.o -I.\RTE\_SmartHome -ID:\keil_v5\ARM\
-PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include -ID:\keil_v5\ARM\CMSIS\Include --p
-redefine="__UVISION_VERSION SETA 525" --predefine="STM32F10X_MD SETA 1" --list=
-.\listings\os_cpu_a.lst ..\UCOSII\Port\os_cpu_a.asm
+ork --depend=..\obj\os_cpu_a.d -o..\obj\os_cpu_a.o -I.\RTE\_SmartHome -ID:\keil
+_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include -ID:\keil_v5\ARM\CMSIS\Inc
+lude --predefine="__UVISION_VERSION SETA 525" --predefine="STM32F10X_MD SETA 1"
+ --list=.\listings\os_cpu_a.lst ..\UCOSII\Port\os_cpu_a.asm
 
 
 
